@@ -10,6 +10,30 @@ img {
 a:hover {
 	color: #000;
 }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+thead {
+    background-color: #eee;
+}
+thead , th {
+    border : 1px solid #fff;
+    text-align: center;
+}
+tbody , td {
+    border : 1px solid #eee;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
 .text-black {
 	color: #000;
 }
@@ -107,4 +131,29 @@ a:hover {
     border-bottom: 2px solid #ff5722;
     padding-bottom: 10px;
     margin-bottom: -1px;
+}
+
+
+.count {
+  width: 60px;
+  height: 80px;
+  background: #000;
+  border-radius: 0%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  float: left;
+  margin: 3px;
+  text-shadow: 1px 1px black;
+  -webkit-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 72px -9px rgba(0,0,0,0.75);
+}
+.meter-scnter {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
